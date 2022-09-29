@@ -1,0 +1,20 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 0 92px 0;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 790px) {
+    .lead {
+      margin-bottom: 88px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .lead {
+      margin-bottom: 64px;
+    }
+  }

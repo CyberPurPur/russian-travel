@@ -1,0 +1,40 @@
+.lead__image {
+    width: 984px;
+    height: 615px;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 1030px) {
+    .lead__image {
+      width: 928px;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 970px) {
+    .lead__image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 830px) {
+    .lead__image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 796px) {
+    .lead__image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .lead__image {
+      width: 100%;
+      height: auto;
+    }
+  }
