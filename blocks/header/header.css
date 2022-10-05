@@ -1,5 +1,5 @@
 .header {
-    width: calc(100% - 96px);
+    max-width: 1184px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -20,6 +20,7 @@
   @media screen and (max-width: 650px) {
       .header {
           padding: 0 16px 48px 16px;
+          min-width: 288px;
       }
   }
   
