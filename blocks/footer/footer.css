@@ -6,14 +6,9 @@
     flex-direction: row;
     justify-content: space-between;
     box-sizing: border-box;
+    justify-self: center;
   }
-  
-  @media screen and (max-width: 1030px) {
-    .footer {
-      max-width: 928px;
-      padding: 92px 48px 24px 48px;
-    }
-  }
+
   
   @media screen and (max-width: 770px) {
     .footer {
