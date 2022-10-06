@@ -3,7 +3,7 @@
     grid-template-columns: minmax(440px, 460px) 1fr;
     grid-template-rows: min-content min-content;
     column-gap: 40px;
-    padding-top: 80px;
+    padding-top: 92px;
   }
   
   @media screen and (max-width: 1281px) {
@@ -23,7 +23,7 @@
     .place {
       column-gap: 28px;
       grid-template-columns: 340px 1fr;
-      padding-top: 73px;
+      padding-top: 88px;
     }
   }
   @media screen and (max-width: 767px) {
